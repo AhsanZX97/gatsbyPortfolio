@@ -4,10 +4,10 @@ import java_project from '../../images/java_project.png';
 import php_project from '../../images/php_project.png';
 import ruby_project from '../../images/ruby_project.png';
 
-import Feature from './Feature';
+import Project from './Project';
 
-const Features = () => {
-  const FEATURES = [
+const Projects = () => {
+  const PROJECTS = [
     {
       href: '/#',
       image: java_project,
@@ -40,13 +40,13 @@ const Features = () => {
     },
   ];
 
-  const [features] = React.useState(FEATURES);
+  const [projects] = React.useState(PROJECTS);
 
   return (
     <section id="one" className="wrapper style2 spotlights">
-       {features.map(feature => <Feature key={feature.heading} {...feature} />)}
+       {projects.map(project => <Project key={project.heading} {...project} />)}
     </section>
   );
 }
 
-export default Features;
+export default Projects;

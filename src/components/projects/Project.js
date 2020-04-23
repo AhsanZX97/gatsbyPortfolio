@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-const Feature = ({href, image, heading, description, to}) =>
+const Project = ({href, image, heading, description, to}) =>
   <section>
     <a href={href} className="image" alt="image">
       <img src={image} alt="" data-position="center center" height="438" width="438"/>
@@ -21,4 +21,4 @@ const Feature = ({href, image, heading, description, to}) =>
     </div>
   </section>
 
-export default Feature;
+export default Project;
