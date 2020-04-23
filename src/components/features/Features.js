@@ -1,8 +1,8 @@
 import React from 'react';
 
-import pic1 from '../../images/pic01.jpg';
-import pic2 from '../../images/pic02.jpg';
-import pic3 from '../../images/pic03.jpg';
+import java_project from '../../images/java_project.png';
+import php_project from '../../images/php_project.png';
+import ruby_project from '../../images/ruby_project.png';
 
 import Feature from './Feature';
 
@@ -10,9 +10,9 @@ const Features = () => {
   const FEATURES = [
     {
       href: '/#',
-      image: pic1,
-      heading: 'Sed ipsum dolor',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      image: java_project,
+      heading: 'Football League Management',
+      description: 'Created a football league generator in my 3nd year of University in a team. Purpose was for users to create their own sunday league football using CRUD. Created using Spring Framework with javascript using google maps API.',
       to: {
         href: '/generic',
         label: 'Learn more',
@@ -20,9 +20,9 @@ const Features = () => {
     },
     {
       href: '/#',
-      image: pic2,
-      heading: 'Feugiat consequat',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      image: php_project,
+      heading: 'Meta Interpetive Learning Web-Interface',
+      description: 'Made a web application that performs Meta-Interpretive Learning and neural network algorithm. Created using HTML,CSS,PHP,Javascript and SQL',
       to: {
         href: '/generic',
         label: 'Learn more',
@@ -30,9 +30,9 @@ const Features = () => {
     },
     {
       href: '/#',
-      image: pic3,
-      heading: 'Ultricies aliquam',
-      description: 'Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.',
+      image: ruby_project,
+      heading: 'Football League Management on Ruby',
+      description: 'Created a football league generator in my 2nd year of University. Purpose was for users to create their own sunday league football using CRUD. Created using Ruby On Rails, jquery and sql.',
       to: {
         href: '/generic',
         label: 'Learn more',
