@@ -44,7 +44,7 @@ const Projects = () => {
 
   return (
     <section id="one" className="wrapper style2 spotlights">
-       {projects.map(project => <Project key={project.heading} {...project} />)}
+      {projects.map(project => <Project key={project.heading} {...project} />)}
     </section>
   );
 }

@@ -1,10 +1,14 @@
 import React from 'react';
+import 'devicon';
 
-const Skill = ({ heading, description, iconClass }) =>
+const Capability = ({ heading, description, iconClass }) =>
   <section>
-    <span className={`icon major ${iconClass}`} />
+    
+    <span className="devicon-java-plain"></i>
     <h3>{heading}</h3>
     <p>{description}</p>
   </section>
 
-export default Skill;
+export default Capability;
+
+//<span className={`icon major ${iconClass}`} />
