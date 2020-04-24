@@ -1,9 +1,9 @@
 import React from 'react';
 
-import Capability from './Capability';
+import Skill from './Skill';
 
-const CapabilityList = () => {
-  const CAPABILITIES = [
+const SkillsList = () => {
+  const SKILLS = [
     {
       heading: 'Lorem ipsum amet',
       description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
@@ -36,13 +36,13 @@ const CapabilityList = () => {
     },
   ]
 
-  const [capabilities] = React.useState(CAPABILITIES);
+  const [skills] = React.useState(SKILLS);
 
   return (
     <>
-      {capabilities.map((capability) => <Capability key={capability.heading} {...capability} />)}
+      {skills.map((skill) => <Skill key={skill.heading} {...skill} />)}
     </>
   )
 }
 
-export default CapabilityList;
+export default SkillsList;

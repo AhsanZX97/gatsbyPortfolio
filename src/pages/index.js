@@ -6,7 +6,7 @@ import Sidebar  from '../components/common/Sidebar';
 
 import Introduction from '../components/introduction/Introduction';
 import Projects     from '../components/projects/Projects';
-import Capabilities from '../components/capabilities/Capabilities';
+import Skills from '../components/skills/Skills';
 import Contact      from '../components/contact/Contact';
 
 const IndexPage = () =>
@@ -16,7 +16,7 @@ const IndexPage = () =>
     <div id="wrapper">
       <Introduction />
       <Projects />
-      <Capabilities />
+      <Skills />
       <Contact />
     </div>
 
