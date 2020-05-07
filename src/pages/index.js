@@ -1,26 +1,21 @@
 import React from 'react';
+import Layout from '../components/Layout';
+import Landing from '../sections/Landing';
+import About from '../sections/About';
+import Projects from '../sections/Projects';
+import Writing from '../sections/Writing';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
 
-import Layout   from '../components/common/layout';
-import Footer   from '../components/common/Footer';
-import Sidebar  from '../components/common/Sidebar';
-
-import Introduction from '../components/introduction/Introduction';
-import Projects     from '../components/projects/Projects';
-import Skills from '../components/skills/Skills';
-import Contact      from '../components/contact/Contact';
-
-const IndexPage = () =>
+const IndexPage = () => (
   <Layout>
-    <Sidebar />
-
-    <div id="wrapper">
-      <Introduction />
-      <Projects />
-      <Skills />
-      <Contact />
-    </div>
-
+    <Header />
+    <Landing />
+    <About />
+    <Projects />
+    <Writing />
     <Footer />
   </Layout>
+);
 
 export default IndexPage;
